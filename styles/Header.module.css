@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 18.75rem;
+    background-color: #ffffff;
+    letter-spacing: 0.004em;
+}
+.header >h1{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 52px;
+    color: #000000;
+}
+.headerRight{
+    display: flex;
+}
+.headerRight >li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 29px;
+    color: #666666;
+}
+.headerRight>li:hover{
+    color:  var(--secondary);
+}
+
+/* Topbar header component */
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    padding-inline: 18.75rem;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    background-color: var(--primary);
+}
+.topbar > div{
+    display: flex;
+    align-items: center;
+}

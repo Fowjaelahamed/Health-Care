@@ -1,0 +1,13 @@
+.footer{
+    margin-top: auto;
+    margin-bottom: 0;
+    padding-inline: 18.75rem;
+    background-color: var(--bg-primary-shade);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+.footer li{
+    list-style: none;
+}
