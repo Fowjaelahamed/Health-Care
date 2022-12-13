@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 1.125rem;
     line-height: 29px;
-    color: #666666;
+    color: var(--gray-shade);
 }
 .headerRight>li:hover{
     color:  var(--secondary);

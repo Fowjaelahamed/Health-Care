@@ -7,11 +7,11 @@ const Topbar = () => {
   return (
     <div className={styles.topbar}>
       <div>
-        <Image src={email}/>
+        <Image src={email} alt="email icon"/>
         <p>support@healthcare.com</p>
       </div>
       <div>
-        <Image src={location}/>
+        <Image src={location} alt="location icon"/>
         <p>1/4, Shat Moshjid Road, Block-E, Mohammadpur, Dhaka, BD</p>
       </div>
       <div>
